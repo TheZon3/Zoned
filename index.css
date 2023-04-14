@@ -12,6 +12,11 @@ body{
   font-family: 'Computer';
   src: url(Quinquefive-ALoRM.ttf);
 }
+
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto-Medium.ttf);
+}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #212020;
@@ -91,19 +96,22 @@ body{
   
 
   .ib a {
-   
+    border: 2px solid #212120;
+    background-color: #e6e6e6;
+    color: #212020;
+    font-size: 16px;
+    cursor: pointer;
+    border-width: 4px;
     margin-left: -5%; 
     margin-right: 10px; 
-    padding: 5px;
+    padding: 10px;
     font-size:xx-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: lighter;
+    font-family: roboto;
+    font-weight: 1000;
     color: #212020;
     border-radius: 10px;
-    border-color: #212020;
-    border-width: 100px;
     text-decoration: none;
-    border: #212020;
+    letter-spacing: -2px;
 
   }.ib a:hover{
     background-color: #212020;
@@ -112,6 +120,17 @@ body{
 
   @media screen and (max-width: 600px) {
     .fade-in-image{
-      width: 120%;
+      width: 40%;
     }
+    .divi{
+      color: #212020;
+    }
+  }
+
+  .ia{
+    color: #212020;
+  }.ia a:hover{
+    background-color: #212020;
+    color: #e6e6e6;
+    text-decoration: line-through;
   }
