@@ -4,18 +4,16 @@ body{
     background-color: #212020;
     width: 100%;
    overflow-x: hidden; 
-   
-   
 }
-
+/*Fonts*/
 @font-face {
   font-family: 'Computer';
-  src: url(Quinquefive-ALoRM.ttf);
+  src: url(Assets/Quinquefive-ALoRM.ttf);
 }
 
 @font-face {
   font-family: Roboto;
-  src: url(Roboto-Medium.ttf);
+  src: url(Assets/Roboto-Medium.ttf);
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -97,7 +95,6 @@ body{
 
   .ib a {
     border: 2px solid #212120;
-    background-color: #e6e6e6;
     color: #212020;
     font-size: 16px;
     cursor: pointer;
@@ -114,18 +111,10 @@ body{
     letter-spacing: -2px;
 
   }.ib a:hover{
-    background-color: #212020;
     color: #e6e6e6;
+  
   }
 
-  @media screen and (max-width: 600px) {
-    .fade-in-image{
-      width: 40%;
-    }
-    .divi{
-      color: #212020;
-    }
-  }
 
   .ia{
     color: #212020;
