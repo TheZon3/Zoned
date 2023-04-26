@@ -91,7 +91,11 @@ body{
     position: relative;
     z-index: -1;
   }
-  
+
+.Banner{
+  width: 100%;
+  height: auto;
+}
 
   .ib a {
     border: 2px solid #212120;
@@ -113,13 +117,4 @@ body{
   }.ib a:hover{
     color: #e6e6e6;
   
-  }
-
-
-  .ia{
-    color: #212020;
-  }.ia a:hover{
-    background-color: #212020;
-    color: #e6e6e6;
-    text-decoration: line-through;
   }
