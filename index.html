@@ -1,96 +1,135 @@
-<section><link href="General.css" rel="stylesheet" >
-<script src="index.js"></script></section>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>ZONED</title>
-    <div>
-        <!--Menu-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <div class="topnav" id="myTopnav">
-        <a title="All the self development content you'll need" href="https://linktr.ee/the_zone" class="active"><b style="font-weight: bolder;">Content</b></a>
-        <a href="mailto:zoned@zoned.com">Contact</a>
-        <a href="#about1">About</a>
-        <a title="join a supportive Community" href="#community">Community</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-        </a>
-    </div>
-    </div> <!--Banner-->
-    <div class="blurry-image">
-        <div class="fade-in-image">
-            <center><img class="Banner" src="Assets/Banner expanded.png"></center>
-        </div>
-    </div>
+    <title>Document</title>
 </head>
-<body><!--Network--><link href="Network.css" rel="stylesheet" > 
-    <section class="Net">
-        <br style="height: 10px; margin-top: 2px; margin-bottom: 2px;">
-        <center>
-        <div><!--Text-->
-            <br> <br>
-            <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
-            <p class="Netp"><b>A network of dedicated</b> <br><span class="auto-types"></span></p>
-            <script>
-                var typed = new Typed(".auto-types", {
-                    strings: ["Traders", "Creators", "Entrepreneur", "Stoics"],
-                    typeSpeed: 150,
-                    backSpeed: 150,
-                    loop: true
-                })
-        
-            </script>
-        </div>
-        </center>
-        <div class="Join"><!--button-->
-            <br><br><br>
-            <center><a href="https://discord.gg/KmMVN8HBBD">JOIN IN</a></center>
-            <br><br><br>
-        </div>
-        
 
-    </section><!--Substack-->
-    <section style=" margin-top: 10px;">
-        <center><iframe src="https://zoned.substack.com/embed" width="110%" height="350px" style="margin-left: -5%;" frameborder="0" scrolling="no"></iframe></center>
-    </section>
+<body>
     
-    <section><!--About--><link href="About.css" rel="stylesheet" >
-        <div class="we"><!--We will make you-->
-            <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
-            <br style="height: 10%;">
-            <center><h2 id="about1" class="make">We will make you<br><b class="unstoppable">UNSTOPPABLE</b></h2></center>
-            <br> <br> <br> <br> <br> <br> <br> <br>
+    <section class="bgimg">
+        <div class="header">
+            <img src="images/headerlogo.png" alt="" class="logo">
 
-            <div><!--Button-->
-                <center><a  class="Follow" href="https://linktr.ee/the_zone">FOLLOW</a></center>
-                <br><br><br><br>
+            <img class="hamburger" src="images/hamberger.png" alt="">
+
+            <div class="header-links" style="padding-right: 100px;">
+                <ul class="ulitems">
+                    <li><a href="">content</a></li>
+                    <li><a href="">contact</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">community</a></li>
+
+                    <i class="fas fa-xmark close"></i>
+
+                </ul>
             </div>
-       
-            <center><div style="margin-left: -5%; font-family:Computer;"><!--Change-->
-                <p class="change">
-                    <b style="font-family: 'roboto'; font-size: xx-large;">Change your</b> <br> <b style="font-weight:bolder; font-size: xx-large; color: #596f8b;">future</b><br></p>
-                <p class="change">
-                    <b style="font-family: 'roboto'; font-size: xx-large;">by changing your</b> <br> <span class="auto-type" style="color: #596f8b; font-weight:bolder; font-size: xx-large;" ></span></p>    
-                <script>
-                var typed = new Typed(".auto-type", {
-                    strings: ["Present", "Habits", "Relationships", "Focus", "Actions", "Health"],
-                    typeSpeed: 150,
-                    backSpeed: 150,
-                    loop: true
-                })
-                </script>
-                </div>
-        </div></center>
-        <br style="height: 3px;"><br>
-    </section>    
+        </div>
+        <img class="mask-img" src="images/banner no back.png" alt="">
+        
+    </section>
+
+
+    <!-- --------------------------------------network-section------------------------ -->
+    <section class="network-section">
+        <div class="network-container">
+            <div class="left">
+                <h1 class="heading-network"> A network of dedicated Entrepreneur</h1>
+                <img class="amico-res" src="images/amico-res.png" alt="">
+                <p class="para1-network">It is a long established fact that a reader
+                    will be distracted by the readable content of a page when looking at its layout</p>
+                <button class="join-btn">Join In</button>
+            </div>
+
+            <div class="right">
+                <img src="images/amico.png" alt="" class="img-network">
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------------------zoned-section-------------------------------------- -->
+    <section class="zoned-section">
+        <div class="zoned-left">
+            <img src="/images/footerlogo.png" alt="">
+            <p class="zoned-para">Financial & Technologic commentary made simple</p>
+            <div class="left-input">
+                <input type="text" placeholder="Enter your email">
+                <button class="zoned-btn"> Submit</button>
+            </div>
+
+        </div>
+        <div class="zoned-right">
+            <img src="/images/zonedhero.png" alt="">
+
+        </div>
+    </section>
+    <!-- ----------------------------------------about-us---------------- -->
+
+    <section class="about-us">
+        <h1 class="about-heading">About Us</h1>
+        <p class="about-para">This is what We do</p>
+        <div class="about-content">
+            <div class="about-left">
+                <img src="images/abouthero.png" alt="">
+
+            </div>
+            <div class="about-right">
+                <p class="about-right-para1">In an era of constant change and evolving complexities, there is an
+                    undeniable need to comprehend and navigate the intricacies of today's world. That's where we step
+                    in, committed to assisting you in gaining a deeper understanding of the world we live in. Our aim is
+                    not just to provide knowledge but to empower you with the tools to improve yourself in the process.
+                </p>
+
+                <p class="about-right-para2">By unraveling the mysteries of modern society, we enable you to make
+                    informed decisions, broaden your perspectives, and embrace personal growth. Our comprehensive
+                    approach equips you with the necessary insights to thrive in a rapidly transforming world. We offer
+                    a pathway to enlightenment, facilitating your personal development and empowering you to unlock your
+                    true potential. </p>
+
+                <button class="join-btn">Join In</button>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- ---------------------------------------unstoppable-------- -->
+    <section class="unstopable">
+        <img class="backimg" src="images/Maskunstop.png" alt="">
+        <div class="unstop-content">
+            <h1 class="h1-unstopable">We will make you Unstoppable</h1>
+            <div class="btn-unstopable">
+                <button class="btn3">Join In</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ----------------------------------------------footer----------------- -->
+    <section class="footer">
+        <div class="footer-content">
+
+            <p class="p4">Change your future</p>
+            <div class="vertical-line"></div>
+            <p class="p4">by changing your Habits</p>
+
+
+        </div>
+
+
+    </section>
+
+
+    <script src="./app.js"></script>
+
 </body>
 
-<footer style="background-color: #212120;">
-    <!-- <div>
-        <a style="padding:10px;" href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9kZGY5ODQ2Yy9wb2RjYXN0L3Jzcw">
-          <img src="https://www.gstatic.com/podcasts_console/promote/English_EN/EN_Google_Podcasts_Badge.svg" width="150" height="38" alt="Listen on Google Podcasts">
-        </a>
-      </div> -->
-      <!-- <iframe src="https://podcasters.spotify.com/pod/show/zoned-in" height="102px" width="400px" frameborder="0" scrolling="no"></iframe> -->
-        <div class="ib">
-        </div>
-    </footer>
+</html>
